@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>【現代人の必須教養】おすすめ教育系Youtuber６選</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      /* 全体CSS */
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        padding: 0 2rem;
+        margin: 1rem auto 3rem;
+        background-color: rgb(235, 235, 235);
+        color: rgb(51, 51, 51);
+        font-size: 1.6rem;
+        line-height: 2;
+        text-align: justify;
+      }
+
+      h1 {
+        font-size: 36px; /* IE8以下とAndroid4.3以下用フォールバック */
+        font-size: calc(
+          3.6rem + ((1vw - 0.64rem) * 2.1429)
+        ); /* 24px~36pxで可変*/
+        line-height: 1.3;
+      }
+      h2 {
+        font-size: 24px; /* IE8以下とAndroid4.3以下用フォールバック */
+        font-size: calc(
+          2.4rem + ((1vw - 0.64rem) * 0.7143)
+        ); /* 20px~24pxで可変*/
+        line-height: 1.3;
+      }
+      h3 {
+        font-size: 20px; /* IE8以下とAndroid4.3以下用フォールバック */
+        font-size: calc(
+          2.3rem + ((1vw - 0.64rem) * 0.7143)
+        ); /* 20px~24pxで可変*/
+        line-height: 1.3;
+      }
+      p {
+        font-size: 16px; /* IE8以下とAndroid4.3以下用フォールバック */
+        font-size: calc(
+          1.6rem + ((1vw - 0.64rem) * 0.7143)
+        ); /* 20px~24pxで可変*/
+        line-height: 1.8;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .movie {
+        /* margin: 0 auto; */
+      }
+
+      /* メディアクエリ */
+      @media screen and (max-width: 470px) {
+        /* 画面サイズが470px以下の場合読み込む */
+        body {
+          padding: 0 5px;
+        }
+        .container-fluid {
+          padding: 0 5px;
+        }
+        .toc ul {
+          padding-left: 10px;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        /*画面サイズが767px以下の場合読み込む*/
+        .contents-wrapper {
+          padding: 0 1rem;
+        }
+        .nav {
+          padding: 0 2rem;
+        }
+        .contents-wrapper h2 {
+          line-height: 2;
+          padding-left: 1rem;
+          margin: 3rem auto;
+          border-bottom: 2px solid rgb(91, 186, 199);
+        }
+        .youtuber-wrapper {
+          margin-bottom: 5rem;
+        }
+        .youtuber-wrapper h3 {
+          margin: 3rem auto 1.5rem;
+        }
+        .youtuber-wrapper p {
+          margin: 0 2.4rem 1rem 2.4rem;
+        }
+        .conclusion {
+          padding: 1rem 2rem;
+          border-top: 3px solid rgb(49, 213, 95);
+        }
+      }
+      @media screen and (min-width: 768px) {
+        /*画面サイズが768px以上の場合読み込む*/
+        body {
+          max-width: 1200px;
+        }
+        .nav {
+          padding: 0 2rem;
+        }
+        .contents-wrapper {
+          padding: 0 2rem;
+        }
+
+        .contents-wrapper h2 {
+          line-height: 2;
+          padding-left: 1rem;
+          margin: 3rem auto;
+          border-bottom: 2px solid rgb(91, 186, 199);
+          /* border-top: 2px solid rgb(91, 186, 199); */
+        }
+        .youtuber-wrapper {
+          margin-bottom: 5rem;
+        }
+        .youtuber-wrapper h3 {
+          margin: 3rem auto 1.5rem;
+        }
+        .youtuber-wrapper p {
+          margin: 0 2.4rem 1rem 2.4rem;
+        }
+        .conclusion {
+          padding: 1rem 2rem;
+          border-top: 3px solid rgb(49, 213, 95);
+        }
+      }
+      @media (min-width: 1200px) {
+        /* 1200px以上の場合読み込む*/
+        h1 {
+          font-size: 4.400024rem; /* 44.00024px*/
+        }
+        .youtuber-wrapper {
+          margin-bottom: 10rem;
+        }
+      }
+
+      /* 詳細CSS */
+      .ttl-cover {
+        background: url(img/double-bubble-outline.png);
+        background-size: cover;
+      }
+      .nav-wrapper {
+        background-color: white;
+        margin-top: 3rem;
+      }
+      nav p{
+        margin: 1rem;
+      }
+      .nav h3 {
+        border-left: 5px solid #acacac;
+        padding-left: 8px;
+      }
+      .toc {
+        background: #f9f9f9;
+        margin: 4rem 2rem;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        width: auto;
+        max-width: 700px;
+      }
+      .page-contents {
+        /* list-style: none; */
+      }
+      .toc p {
+        text-align: center;
+        font-weight: 600;
+      }
+      .contents {
+        background-color: white;
+      }
+      .contents h2 {
+        background-color: rgb(235, 235, 235);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <header>
+        <!-- タイトル -->
+        <div class="ttl-cover text-center py-5">
+          <h1 class="text-center px-3">
+            【現代人の必須教養】おすすめ教育系Youtuber6選
+          </h1>
+        </div>
+
+        <div class="nav-wrapper">
+          <div class="intro px-5">
+            <h2 class="pt-5">
+              このページでは教養を身に着けたり独学に役立つ、教育系Youtuberと言われる人たちを紹介していきます。
+            </h2>
+          </div>
+
+          <div class="toc">
+            <p class="toc-title pt-4">目次</p>
+            <ul class="page-contents">
+              <li><a href="">1　はじめに</a>
+                <ul>
+                  <li><a href="#1.1">1.1　教育系Youtuberとは？</a></li>
+                  <li><a href="#1.2">1.2　どの動画を見たらいいの？</a></li>
+                </ul>
+              </li>
+              <li><a href="#2">2　教育系</a>
+                <ul>
+                  <li><a href="#2.1">2.1　中田敦彦のYoutube大学</a></li>
+                  <li><a href="#2.2">2.2　マコなり社長</a></li>
+                  <li><a href="#2.3">2.3　マナブ</a></li>
+                </ul>
+              </li>
+              <li><a href="#3">3　投資系</a>
+                <ul>
+                  <li><a href="#3.1">3.1　両学長 リベラルアーツ大学</a></li>
+                  <li><a href="#3.2">3.2　バフェット太郎の投資チャンネル</a></li>
+                  <li><a href="#3.3">3.3　宋世羅の羅針盤ちゃんねる</a></li>
+                </ul>
+              </li>
+              <li><a href="#4">4　おわりに</a></li>
+            </ol>
+          </div>
+
+          <!-- 導入 -->
+          <nav class="nav">
+            <h3 class="mt-5 mb-3" id="1.1">教育系Youtuberとは？</h3>
+            <p>
+              数学や日本史等の学生が勉強する科目から、政治や年金、世界情勢等の大人の教養科目、意識の高い社会人として必要な心構え等、専門的な内容をわかりやすい動画にしている人たちのことです。
+            </p>
+            <p>
+              <strong>子供や主婦でもわかりやすい</strong
+              >ように説明しているので、<strong>学校の授業がよく理解出来なかった人</strong>でも理解しやすい構成になっています。動画１本あたり１０分〜２０分くらいの動画が多いので電車での移動時間やスキマ時間にもサクッと見れる手軽さから、忙しい社会人にもマッチし脚光を浴びてきています。
+            </p>
+            <div class="text-center my-5">
+              <img src="img/nakata.png" alt="" class="img-fluid" />
+            </div>
+            <h3 class="mb-3" id="1.2">どの動画を見たらいいの？</h3>
+            <p>
+              見てみたいけどどの動画をみたらいいかわからないという人のために、これを見ておけば間違いない！というチャンネルを６つセレクトしてみました。
+            </p>
+            <p>
+              このジャンルはお金や投資の話を交えたYoutuberも多いので、教育系と投資系に分けて紹介します。見るべき年代と客層、チャンネルの特徴を添えて紹介していきますのでぜひ御覧ください！
+            </p>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <article class="contents pt-5 pb-4">
+          <div class="contents-wrapper">
+            <!--教育系-->
+            <section class="education">
+              <h2 id="2">【教育系】</h2>
+
+              <div class="youtuber-wrapper">
+                <div class="nakata">
+                  <h3 id="2.1">・中田敦彦のYoutube大学</h3>
+                  <p>年代：全年齢向け</p>
+                  <p>客層：とにかくいろんなことに教養を得たい人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/AmYkYxKnsw8"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    世界史等の学校で学ぶ教科や、年金問題、話題のニュース解説など、様々なジャンルを参考資料を基に面白おかしく、かつ丁寧に解説してくれる。一般人目線でわかりやすく説明していくので教育系初心者に特におすすめ。
+                  </p>
+                </div>
+              </div>
+
+              <div class="youtuber-wrapper">
+                <div class="makonari">
+                  <h3 id="2.2">・マコなり社長</h3>
+                  <p>年代：２０代向け</p>
+                  <p>客層：意識を高めていきたい人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/_-CssXA_o9M"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    自己啓発系がメイン。見た後にすぐ実行できるアクションプランを毎回提示してくれるので実用性が高い。意識は高いが一般人目線の考えも持ち合わせているので共感できる。生産性の鬼であり自身の生活用品にも抜かりは無く、動画で紹介した商品はたちまち売り切れになるという、教育系では今最も勢いのあるカリスマインフルエンサー。
+                  </p>
+                </div>
+              </div>
+
+              <div class="youtuber-wrapper">
+                <div class="manabu">
+                  <h3 id="2.3">・マナブ</h3>
+                  <p>年代：２０、３０代向け</p>
+                  <p>客層：副業、フリーランスに興味がある人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/xruIexo564w"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    副業の始め方や、会社員からフリーランスになるまでの過程を自分の体験談を交えて解説している。自由なライフスタイルに憧れて情報を鵜呑みにしてはいけないが、参考にするべき所は多い。
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!-- 投資系 -->
+            <section class="investment">
+              <h2 id="3">【投資系】</h2>
+
+              <div class="youtuber-wrapper">
+                <div class="manabu">
+                  <h3 id="3.1">・両学長 リベラルアーツ大学</h3>
+                  <p>年代：２０〜４０代向け</p>
+                  <p>客層：お金の守り方や貯め方、資産形成に興味がある人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/hEEPiTaM0aE"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    主にお金にまつわる話や投資の話を解説。お金の守り方、貯め方、増やし方をわかりやすく解説しているので所得が低い人も高い人も参考になる。見るだけで自分のお金が増えるくらいの価値あり。
+                  </p>
+                </div>
+              </div>
+
+              <div class="youtuber-wrapper">
+                <div class="manabu">
+                  <h3 id="3.2">・バフェット太郎の投資チャンネル</h3>
+                  <p>年代：２０〜４０代向け</p>
+                  <p>客層：投資と最近の経済情勢を知りたい人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/BsKLrysm4yc"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    投資の話や最近の経済ニュースを交えた解説がメイン。投資初心者向けではあるが、少し専門的な話も出てきたりするので、他の投資系動画と情報を比較しながら見るとより理解が深まる。
+                  </p>
+                </div>
+              </div>
+
+              <div class="youtuber-wrapper">
+                <div class="manabu">
+                  <h3 id="3.3">・宋世羅の羅針盤ちゃんねる</h3>
+                  <p>年代：２０〜３０代向け</p>
+                  <p>客層：営業職の人</p>
+                  <!-- 16:9 aspect ratio -->
+                  <div class="movie mx-5 my-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/HXcIs15MpyQ"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- 紹介文 -->
+                  <p>
+                    営業にとってためになる仕事術を、自身の苦労した経験を踏まえながら解説している。接客業全般に共通する仕事のスタンスともとれるので業界の人は一見の価値あり。
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!-- 終わりに -->
+            <div class="conclusion" id="4">
+              <p>
+                いかがだったでしょうか。現在本当にたくさんのジャンルのYoutuberが出てきているので、今回紹介したなかに興味がなくても、自分が気になっているワードで検索をするとそれについて解説してくれている動画が見つかると思うのでそこから見始めてみるのもいいと思います。
+              </p>
+              <p>
+                学生のころあまり勉強に興味がなかった人も、これを機にYoutubeで新しい教育のスタイルに触れてみて、学ぶことのおもしろさに出会える人が増えてくれるとうれしく思います。
+              </p>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <footer></footer>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
